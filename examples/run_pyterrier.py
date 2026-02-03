@@ -1,7 +1,7 @@
 """Example: Run PyTerrier RAG baseline."""
 import argparse
-from conqa_bench import get_tasks, ConQAEval
-from conqa_bench.baselines.pyterrier_rag import PyTerrierRAGModel, build_index
+from ambig-turn import get_tasks, ConQAEval
+from ambig-turn.baselines.pyterrier_rag import PyTerrierRAGModel, build_index
 
 
 def main():
